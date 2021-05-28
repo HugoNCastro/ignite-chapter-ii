@@ -1,11 +1,11 @@
-import { ISpecificationRepository } from '../repositories/ISpecificationRepository';
+import { ISpecificationRepository } from '../../repositories/ISpecificationRepository';
 
 interface IRequest {
   name: string;
   description: string;
 }
 
-class CreateSpecificationService {
+class CreateSpecificationUseCase {
   // eslint-disable-next-line no-useless-constructor
   constructor(private specificationRepository: ISpecificationRepository) {}
 
@@ -22,4 +22,5 @@ class CreateSpecificationService {
   }
 }
 
-export default CreateSpecificationService;
+// eslint-disable-next-line import/prefer-default-export
+export { CreateSpecificationUseCase };
