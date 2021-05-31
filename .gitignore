@@ -4,5 +4,8 @@ package.json
 yarn.lock
 tsconfig.json
 /src/prettier.config.js
+.gitignore
+src/.eslintignore
+/tmp
 
 
