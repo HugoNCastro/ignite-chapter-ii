@@ -7,5 +7,6 @@ tsconfig.json
 .gitignore
 src/.eslintignore
 /tmp
+swagger.json
 
 
